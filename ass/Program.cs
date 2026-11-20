@@ -86,7 +86,25 @@ namespace ass
             //End Q5
 
 
+            // Start Q6
+            double price = 49.99;
 
+            int intPrice = (int)price;
+
+            Console.WriteLine(intPrice);
+            //End Q6
+
+
+
+
+            // Start Q7
+            //End Q7
+
+            // Start Q8
+            //End Q8
+
+            // Start Q9
+            //End Q9
         }
 
 
@@ -95,3 +113,4 @@ namespace ass
 
     }
 }
+
