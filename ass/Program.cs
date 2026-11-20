@@ -2,10 +2,11 @@
 
 namespace ass
 {
-    class Book { 
-    
-      public string? title;
-       public int? pages;
+    class Book
+    {
+
+        public string? title;
+        public int? pages;
 
 
     }
@@ -42,69 +43,111 @@ namespace ass
             //End Q2
 
 
-            // Start Q3
+           //////////////// // Start Q3
+           ///
             //int pages = "464"; // like syntax error it`s a compi error le
 
             //int pages = 464; 
 
             //End Q3
 
-            // Start Q4
+           /////////////////////////////// // Start Q4
+            
+            //try
+            //{
+            //    int num1 = 10;
+            //    int num2 = 0;
 
-            try
-            {
-                int num1 = 10;
-                int num2 = 0;
+            //    int division = num1 / num2;
 
-                int division = num1 / num2;
+            //}
+            //catch(Exception)
+            //{
+            //    Console.WriteLine("Cannot divide by zero /exception zero error");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Finally Done.");
+            //}
 
-            }
-            catch(Exception)
-            {
-                Console.WriteLine("Cannot divide by zero /exception zero error");
-            }
-            finally
-            {
-                Console.WriteLine("Finally Done.");
-            }
-
-            //End Q4
-
-
-            // Start Q5
-            Console.WriteLine(' ');
-
-                Console.WriteLine(' ');
-
-            int pages = 300; 
+           ///////////////// //End Q4
 
 
-            double allPages = pages;
-            Console.WriteLine(allPages);
+
+
+         /////////////////////////  //////////// // Start Q5
+            //Console.WriteLine(' ');
+
+            //    Console.WriteLine(' ');
+
+            //int pages = 300; 
+
+
+            //double allPages = pages;
+            //Console.WriteLine(allPages);
 
 
             //End Q5
 
 
-            // Start Q6
-            double price = 49.99;
+          ////////////////////////////////////////  // Start Q6
+            //double price = 49.99;
 
-            int intPrice = (int)price;
+            //int intPrice = (int)price;
 
-            Console.WriteLine(intPrice);
+            //Console.WriteLine(intPrice);
             //End Q6
 
 
 
 
-            // Start Q7
+           //////////////////////////////// // Start Q7
+            //string pagesText = "464";
+
+            //int pages = Convert.ToInt32(pagesText);
+
+            //Console.WriteLine(pages);
             //End Q7
 
-            // Start Q8
+           ////////////////////////////////////////////////// // Start Q8
+
+            //string yearText = "2023";
+            //int intyear = int.Parse(yearText);
+            //Console.WriteLine(intyear);//2032
+
+            //string badText = "abc";
+            //if (int.TryParse(badText, out int result))
+            //{
+            //   Console.WriteLine(result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid number");
+            //}
+
             //End Q8
 
-            // Start Q9
+            ///////////////////////////////// Start Q9
+
+            int pages = 464;
+            string pagesText = pages.ToString();
+
+            Console.WriteLine(pagesText);
+
+            Console.WriteLine(pagesText.GetType());// System.String
+
+
             //End Q9
+
+            //////////////////// // Start Q10
+            ///
+            int copies = 100;    
+            object obj0 = copies;
+            int newCopies = (int)obj0;
+            Console.WriteLine(copies);
+            Console.WriteLine(newCopies);
+
+            //End Q10
         }
 
 
